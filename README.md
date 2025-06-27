@@ -37,9 +37,7 @@ CALCULADORA/
 
 ---
 
-## 📌 Possíveis Melhorias Futuras
-
-## 🔧 Melhorias Futuras
+## 📌 Melhorias Futuras
 
 Aqui estão algumas ideias de aprimoramentos que podem ser implementados no projeto:
 
