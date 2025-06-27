@@ -3,33 +3,18 @@
 Uma calculadora simples e funcional desenvolvida com **HTML**, **CSS** e **JavaScript**, como forma de praticar conceitos de manipulação de DOM, lógica de programação e estilização responsiva.
 
 ---
-
-## 🚀 Demonstração
-
-> Acesse a calculadora funcionando [clicando aqui](https://clamenezesbr.github.io/CALCULADORA/)
-
----
-
-## 📸 Captura de Tela
-
-![Calculadora Web](./assets/preview.png) <!-- Altere o caminho caso o preview esteja em outro local -->
-
----
-
 ## 📁 Estrutura de Pastas
 
+```
 CALCULADORA/
-├── assets/ # Imagens, ícones e recursos visuais
-├── scripts/ # Arquivos JavaScript
-│ └── main.js # Lógica da calculadora
-├── styles/ # Arquivos CSS
-│ └── style.css # Estilização da interface
-├── index.html # Página principal
-└── README.md # Documentação do projeto
-
-yaml
-Copiar
-Editar
+├── assets/           # Imagens, ícones e recursos visuais
+├── scripts/          # Arquivos JavaScript
+│   └── main.js       # Lógica da calculadora
+├── styles/           # Arquivos CSS
+│   └── style.css     # Estilização da interface
+├── index.html        # Página principal
+└── README.md         # Documentação do projeto
+```
 
 ---
 
@@ -52,30 +37,27 @@ Editar
 
 ---
 
-## 🧪 Como Executar Localmente
+## 📌 Possíveis Melhorias Futuras
 
-1. Clone o repositório:
-   ```bash
-   git clone https://github.com/clamenezesbr/CALCULADORA.git
-Acesse a pasta do projeto:
+## 🔧 Melhorias Futuras
 
-bash
-Copiar
-Editar
-cd CALCULADORA
-Abra o arquivo index.html no navegador ou use uma extensão como Live Server no VS Code.
+Aqui estão algumas ideias de aprimoramentos que podem ser implementados no projeto:
 
-📌 Possíveis Melhorias Futuras
- Adição de teclado numérico do sistema (suporte ao keydown)
+- 🕘 **Histórico de operações**  
+  Armazenar e exibir as últimas contas realizadas pelo usuário.
 
- Histórico de operações realizadas
+- 🧠 **Operações avançadas**  
+  Incluir funções como porcentagem, raiz quadrada, exponenciação e parênteses.
 
- Modo escuro
+- 📱 **Aprimoramento da responsividade**  
+  Otimizar ainda mais para diferentes tamanhos de tela e orientação (paisagem/retrato).
 
- Suporte a operações mais avançadas (ex: porcentagem, exponenciação)
+- 💾 **Armazenamento local (LocalStorage)**  
+  Salvar preferências do usuário, como modo escuro ou último cálculo feito.
+
 
 👨‍💻 Autor
 Desenvolvido por Gabriel Menezes
-🔗 LinkedIn
+🔗 [LinkedIn](https://www.linkedin.com/in/gabriel-resende-menezes/)
 
 ![Mackenzie Preview Image](https://i.ibb.co/1X8wyzb/Calculadoras-amostra.png)
