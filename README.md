@@ -1,61 +1,79 @@
 # 🧮 Calculadora Web
 
-Uma calculadora simples e funcional desenvolvida com **HTML**, **CSS** e **JavaScript**, como forma de praticar conceitos de manipulação de DOM, lógica de programação e estilização responsiva.
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+
+Uma calculadora web responsiva desenvolvida com **HTML**, **CSS** e **JavaScript puro**, como projeto de estudo para aprofundar conhecimentos em manipulação de DOM, lógica de programação e estilização.
+
+![Preview](https://i.ibb.co/1X8wyzb/Calculadoras-amostra.png)
 
 ---
-## 📁 Estrutura de Pastas
+
+## ✨ Funcionalidades
+
+- ➕ Operações básicas: adição, subtração, multiplicação e divisão
+- 🖱️ Teclado funcional com clique do mouse
+- 🧹 Limpar resultado (`AC`) e apagar último caractere
+- 📱 Interface responsiva para dispositivos móveis
+- 🚫 Prevenção de erros como divisão por zero
+- 🔄 Atualização automática da tela de resultado
+
+---
+
+## 📁 Estrutura do Projeto
 
 ```
 CALCULADORA/
-├── assets/           # Imagens, ícones e recursos visuais
-├── scripts/          # Arquivos JavaScript
-│   └── main.js       # Lógica da calculadora
-├── styles/           # Arquivos CSS
-│   └── style.css     # Estilização da interface
-├── index.html        # Página principal
-└── README.md         # Documentação do projeto
+├── assets/          # Imagens, ícones e recursos visuais
+├── scripts/
+│   └── main.js      # Lógica principal da calculadora
+├── styles/
+│   └── style.css    # Estilização da interface
+├── index.html       # Página principal
+└── README.md        # Documentação
 ```
 
 ---
 
-## 🧠 Funcionalidades
+## 🚀 Como Executar
 
-- ✅ Operações básicas: adição, subtração, multiplicação e divisão  
-- ✅ Teclado funcional com clique do mouse  
-- ✅ Limpar resultado e apagar último caractere  
-- ✅ Interface responsiva para dispositivos móveis  
-- ✅ Prevenção de erros como divisão por zero  
-- ✅ Atualização automática da tela de resultado
-
----
-
-## 🛠️ Tecnologias Utilizadas
-
-- **HTML5**  
-- **CSS3**  
-- **JavaScript (Vanilla)**  
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/clamenezesbr/CALCULADORA.git
+   ```
+2. Acesse a pasta do projeto:
+   ```bash
+   cd CALCULADORA
+   ```
+3. Abra o arquivo `index.html` no seu navegador — sem necessidade de servidor ou instalação.
 
 ---
 
-## 📌 Melhorias Futuras
+## 📚 O que aprendi
 
-Aqui estão algumas ideias de aprimoramentos que podem ser implementados no projeto:
+Este projeto foi desenvolvido com foco em estudo prático. Principais conceitos aplicados:
 
-- 🕘 **Histórico de operações**  
-  Armazenar e exibir as últimas contas realizadas pelo usuário.
+- **Manipulação de DOM** com `querySelector` e `addEventListener`
+- **Lógica condicional** para tratamento de operações e erros
+- **Estilização responsiva** com CSS Flexbox/Grid
+- **Organização de código** separando HTML, CSS e JS em arquivos distintos
 
-- 🧠 **Operações avançadas**  
-  Incluir funções como porcentagem, raiz quadrada, exponenciação e parênteses.
+---
 
-- 📱 **Aprimoramento da responsividade**  
-  Otimizar ainda mais para diferentes tamanhos de tela e orientação (paisagem/retrato).
+## 🔮 Melhorias Futuras
 
-- 💾 **Armazenamento local (LocalStorage)**  
-  Salvar preferências do usuário, como modo escuro ou último cálculo feito.
+- [ ] 🕘 Histórico das últimas operações realizadas
+- [ ] 🧠 Operações avançadas: porcentagem, raiz quadrada, exponenciação
+- [ ] 💾 Salvar preferências com `localStorage` (ex: modo escuro)
+- [ ] ⌨️ Suporte a entrada pelo teclado físico
+- [ ] 🎨 Temas de cores customizáveis
 
+---
 
-👨‍💻 Autor
-Desenvolvido por Gabriel Menezes
-🔗 [LinkedIn](https://www.linkedin.com/in/gabriel-resende-menezes/)
+## 👨‍💻 Autor
 
-![Mackenzie Preview Image](https://i.ibb.co/1X8wyzb/Calculadoras-amostra.png)
+Feito por **Gabriel Menezes**
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/gabriel-resende-menezes/)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/clamenezesbr)
