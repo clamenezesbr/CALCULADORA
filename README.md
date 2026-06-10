@@ -77,3 +77,22 @@ Feito por **Gabriel Menezes**
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/gabriel-resende-menezes/)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/clamenezesbr)
+
+
+---
+
+## 📋 Changelog
+
+### v2.0 — 2026-06-10
+
+#### 🌐 Hospedagem
+- Projeto publicado via GitHub Pages, acessível por link público
+
+#### ⌫ Botão de deletar
+- Adicionado botão de backspace na primeira linha, entre o campo de resultado e o botão C
+- Função `deleteLast()` criada no JS para remover o último caractere digitado
+- Ícone customizado `icons/delete.png` usado no botão
+- Estilizado em laranja (`rgb(200, 120, 0)`) para diferenciar visualmente do C (vermelho)
+- Compatível com dark mode e light mode
+- Campo de resultado redimensionado de `222.5px` para `148px` para acomodar os três elementos na mesma linha
+- Backspace do teclado já funcionava anteriormente e continua operando normalmente
