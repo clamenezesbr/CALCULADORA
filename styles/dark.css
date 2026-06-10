@@ -72,7 +72,28 @@ input {
 
 input[type="text"] {
   background-color: rgb(47, 51, 50);
-  width: 222.5px;
+  width: 148px;
+}
+
+#delete-button {
+  width: 70px;
+  height: 70px;
+  background-color: rgb(200, 120, 0);
+  border: none;
+  border-radius: 100px;
+  margin: 0.2em;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#delete-button:hover {
+  background-color: rgb(230, 150, 20);
+}
+
+#delete-icon {
+  filter: brightness(0) invert(1);
 }
 
 input[type="button"]:hover {

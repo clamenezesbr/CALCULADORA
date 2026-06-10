@@ -33,6 +33,10 @@ function changeTheme() {
   }
 }
 
+function deleteLast() {
+  res.value = res.value.slice(0, -1);
+}
+
 // Entrada de valor.
 function liveScreen(enteredValue) {
   if (!res.value) {
